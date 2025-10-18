@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de Prompt para Adaptar CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generador de Texto Laboral</h1>
+      <label for="oferta">📄 Pega la oferta laboral:</label>
+      <div>
+        <button id="languageBtn">ES</button>
+      </div>
+      <textarea
+        id="oferta"
+        placeholder="Ejemplo: Se busca diseñador gráfico con experiencia en branding..."
+      ></textarea>
+      <button id="generarBtn">Generar Texto Formateado</button>
+
+      <div id="resultado" class="output" style="display: none"></div>
+      <button id="copiarBtn" class="copy-btn" style="display: none">
+        📋 Copiar texto
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
